@@ -38,9 +38,9 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
     
     func sendText(text: String) {
         if (myPeripheal != nil && myCharacteristic != nil) {
-            /*let data = text.data(using: .utf8)
-            myPeripheal!.writeValue(data!,  for: myCharacteristic!, type: CBCharacteristicWriteType.withResponse)*/
-            myPeripheal!.readValue(for: myCharacteristic!)
+            let data = text.data(using: .utf8)
+            myPeripheal!.writeValue(data!,  for: myCharacteristic!, type: CBCharacteristicWriteType.withResponse)
+            //myPeripheal!.readValue(for: myCharacteristic!)
         }
     }
     
@@ -104,7 +104,5 @@ extension ViewController: CBPeripheralDelegate {
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
         guard let characteristics = service.characteristics else { return }
         myCharacteristic = characteristics[0]
-        let data = myCharacteristic?.value
-        print(data)
     }
 }
