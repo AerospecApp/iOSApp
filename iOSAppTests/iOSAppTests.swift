@@ -1,14 +1,14 @@
 //
-//  AerospecTests.swift
-//  AerospecTests
+//  iOSAppTests.swift
+//  iOSAppTests
 //
-//  Created by Huy Nguyen on 1/5/21.
+//  Created by Huy Nguyen on 2/4/21.
 //
 
 import XCTest
-@testable import Aerospec
+@testable import iOSApp
 
-class AerospecTests: XCTestCase {
+class iOSAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

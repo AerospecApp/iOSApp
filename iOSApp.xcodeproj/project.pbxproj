@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C3D25C25A55A1800184E7B /* AerospecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3D25B25A55A1800184E7B /* AerospecApp.swift */; };
-		00C3D25E25A55A1800184E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3D25D25A55A1800184E7B /* ContentView.swift */; };
-		00C3D26025A55A1900184E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C3D25F25A55A1900184E7B /* Assets.xcassets */; };
-		00C3D26325A55A1900184E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C3D26225A55A1900184E7B /* Preview Assets.xcassets */; };
-		00C3D26E25A55A1900184E7B /* AerospecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3D26D25A55A1900184E7B /* AerospecTests.swift */; };
-		00C3D27925A55A1900184E7B /* AerospecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3D27825A55A1900184E7B /* AerospecUITests.swift */; };
+		0031B0FC25CCE90600231B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031B0FB25CCE90600231B97 /* AppDelegate.swift */; };
+		0031B10025CCE90600231B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031B0FF25CCE90600231B97 /* ViewController.swift */; };
+		0031B10325CCE90600231B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0031B10125CCE90600231B97 /* Main.storyboard */; };
+		0031B10525CCE90700231B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0031B10425CCE90700231B97 /* Assets.xcassets */; };
+		0031B10825CCE90700231B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0031B10625CCE90700231B97 /* LaunchScreen.storyboard */; };
+		0031B11325CCE90700231B97 /* iOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031B11225CCE90700231B97 /* iOSAppTests.swift */; };
+		0031B11E25CCE90700231B97 /* iOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031B11D25CCE90700231B97 /* iOSAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00C3D26A25A55A1900184E7B /* PBXContainerItemProxy */ = {
+		0031B10F25CCE90700231B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00C3D25025A55A1700184E7B /* Project object */;
+			containerPortal = 0031B0F025CCE90600231B97 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00C3D25725A55A1700184E7B;
-			remoteInfo = Aerospec;
+			remoteGlobalIDString = 0031B0F725CCE90600231B97;
+			remoteInfo = iOSApp;
 		};
-		00C3D27525A55A1900184E7B /* PBXContainerItemProxy */ = {
+		0031B11A25CCE90700231B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00C3D25025A55A1700184E7B /* Project object */;
+			containerPortal = 0031B0F025CCE90600231B97 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00C3D25725A55A1700184E7B;
-			remoteInfo = Aerospec;
+			remoteGlobalIDString = 0031B0F725CCE90600231B97;
+			remoteInfo = iOSApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C3D25825A55A1800184E7B /* Aerospec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aerospec.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C3D25B25A55A1800184E7B /* AerospecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospecApp.swift; sourceTree = "<group>"; };
-		00C3D25D25A55A1800184E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00C3D25F25A55A1900184E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00C3D26225A55A1900184E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00C3D26425A55A1900184E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00C3D26925A55A1900184E7B /* AerospecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AerospecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C3D26D25A55A1900184E7B /* AerospecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospecTests.swift; sourceTree = "<group>"; };
-		00C3D26F25A55A1900184E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00C3D27425A55A1900184E7B /* AerospecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AerospecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C3D27825A55A1900184E7B /* AerospecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospecUITests.swift; sourceTree = "<group>"; };
-		00C3D27A25A55A1900184E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031B0F825CCE90600231B97 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031B0FB25CCE90600231B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0031B0FF25CCE90600231B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0031B10225CCE90600231B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0031B10425CCE90700231B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0031B10725CCE90700231B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0031B10925CCE90700231B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031B10E25CCE90700231B97 /* iOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031B11225CCE90700231B97 /* iOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTests.swift; sourceTree = "<group>"; };
+		0031B11425CCE90700231B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031B11925CCE90700231B97 /* iOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031B11D25CCE90700231B97 /* iOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppUITests.swift; sourceTree = "<group>"; };
+		0031B11F25CCE90700231B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C3D25525A55A1700184E7B /* Frameworks */ = {
+		0031B0F525CCE90600231B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D26625A55A1900184E7B /* Frameworks */ = {
+		0031B10B25CCE90700231B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D27125A55A1900184E7B /* Frameworks */ = {
+		0031B11625CCE90700231B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +74,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C3D24F25A55A1700184E7B = {
+		0031B0EF25CCE90600231B97 = {
 			isa = PBXGroup;
 			children = (
-				00C3D25A25A55A1800184E7B /* Aerospec */,
-				00C3D26C25A55A1900184E7B /* AerospecTests */,
-				00C3D27725A55A1900184E7B /* AerospecUITests */,
-				00C3D25925A55A1800184E7B /* Products */,
+				0031B0FA25CCE90600231B97 /* iOSApp */,
+				0031B11125CCE90700231B97 /* iOSAppTests */,
+				0031B11C25CCE90700231B97 /* iOSAppUITests */,
+				0031B0F925CCE90600231B97 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00C3D25925A55A1800184E7B /* Products */ = {
+		0031B0F925CCE90600231B97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00C3D25825A55A1800184E7B /* Aerospec.app */,
-				00C3D26925A55A1900184E7B /* AerospecTests.xctest */,
-				00C3D27425A55A1900184E7B /* AerospecUITests.xctest */,
+				0031B0F825CCE90600231B97 /* iOSApp.app */,
+				0031B10E25CCE90700231B97 /* iOSAppTests.xctest */,
+				0031B11925CCE90700231B97 /* iOSAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00C3D25A25A55A1800184E7B /* Aerospec */ = {
+		0031B0FA25CCE90600231B97 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				00C3D25B25A55A1800184E7B /* AerospecApp.swift */,
-				00C3D25D25A55A1800184E7B /* ContentView.swift */,
-				00C3D25F25A55A1900184E7B /* Assets.xcassets */,
-				00C3D26425A55A1900184E7B /* Info.plist */,
-				00C3D26125A55A1900184E7B /* Preview Content */,
+				0031B0FB25CCE90600231B97 /* AppDelegate.swift */,
+				0031B0FF25CCE90600231B97 /* ViewController.swift */,
+				0031B10125CCE90600231B97 /* Main.storyboard */,
+				0031B10425CCE90700231B97 /* Assets.xcassets */,
+				0031B10625CCE90700231B97 /* LaunchScreen.storyboard */,
+				0031B10925CCE90700231B97 /* Info.plist */,
 			);
-			path = Aerospec;
+			path = iOSApp;
 			sourceTree = "<group>";
 		};
-		00C3D26125A55A1900184E7B /* Preview Content */ = {
+		0031B11125CCE90700231B97 /* iOSAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00C3D26225A55A1900184E7B /* Preview Assets.xcassets */,
+				0031B11225CCE90700231B97 /* iOSAppTests.swift */,
+				0031B11425CCE90700231B97 /* Info.plist */,
 			);
-			path = "Preview Content";
+			path = iOSAppTests;
 			sourceTree = "<group>";
 		};
-		00C3D26C25A55A1900184E7B /* AerospecTests */ = {
+		0031B11C25CCE90700231B97 /* iOSAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				00C3D26D25A55A1900184E7B /* AerospecTests.swift */,
-				00C3D26F25A55A1900184E7B /* Info.plist */,
+				0031B11D25CCE90700231B97 /* iOSAppUITests.swift */,
+				0031B11F25CCE90700231B97 /* Info.plist */,
 			);
-			path = AerospecTests;
-			sourceTree = "<group>";
-		};
-		00C3D27725A55A1900184E7B /* AerospecUITests */ = {
-			isa = PBXGroup;
-			children = (
-				00C3D27825A55A1900184E7B /* AerospecUITests.swift */,
-				00C3D27A25A55A1900184E7B /* Info.plist */,
-			);
-			path = AerospecUITests;
+			path = iOSAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00C3D25725A55A1700184E7B /* Aerospec */ = {
+		0031B0F725CCE90600231B97 /* iOSApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C3D27D25A55A1900184E7B /* Build configuration list for PBXNativeTarget "Aerospec" */;
+			buildConfigurationList = 0031B12225CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSApp" */;
 			buildPhases = (
-				00C3D25425A55A1700184E7B /* Sources */,
-				00C3D25525A55A1700184E7B /* Frameworks */,
-				00C3D25625A55A1700184E7B /* Resources */,
+				0031B0F425CCE90600231B97 /* Sources */,
+				0031B0F525CCE90600231B97 /* Frameworks */,
+				0031B0F625CCE90600231B97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Aerospec;
-			productName = Aerospec;
-			productReference = 00C3D25825A55A1800184E7B /* Aerospec.app */;
+			name = iOSApp;
+			productName = iOSApp;
+			productReference = 0031B0F825CCE90600231B97 /* iOSApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00C3D26825A55A1900184E7B /* AerospecTests */ = {
+		0031B10D25CCE90700231B97 /* iOSAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C3D28025A55A1900184E7B /* Build configuration list for PBXNativeTarget "AerospecTests" */;
+			buildConfigurationList = 0031B12525CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSAppTests" */;
 			buildPhases = (
-				00C3D26525A55A1900184E7B /* Sources */,
-				00C3D26625A55A1900184E7B /* Frameworks */,
-				00C3D26725A55A1900184E7B /* Resources */,
+				0031B10A25CCE90700231B97 /* Sources */,
+				0031B10B25CCE90700231B97 /* Frameworks */,
+				0031B10C25CCE90700231B97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00C3D26B25A55A1900184E7B /* PBXTargetDependency */,
+				0031B11025CCE90700231B97 /* PBXTargetDependency */,
 			);
-			name = AerospecTests;
-			productName = AerospecTests;
-			productReference = 00C3D26925A55A1900184E7B /* AerospecTests.xctest */;
+			name = iOSAppTests;
+			productName = iOSAppTests;
+			productReference = 0031B10E25CCE90700231B97 /* iOSAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		00C3D27325A55A1900184E7B /* AerospecUITests */ = {
+		0031B11825CCE90700231B97 /* iOSAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C3D28325A55A1900184E7B /* Build configuration list for PBXNativeTarget "AerospecUITests" */;
+			buildConfigurationList = 0031B12825CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSAppUITests" */;
 			buildPhases = (
-				00C3D27025A55A1900184E7B /* Sources */,
-				00C3D27125A55A1900184E7B /* Frameworks */,
-				00C3D27225A55A1900184E7B /* Resources */,
+				0031B11525CCE90700231B97 /* Sources */,
+				0031B11625CCE90700231B97 /* Frameworks */,
+				0031B11725CCE90700231B97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00C3D27625A55A1900184E7B /* PBXTargetDependency */,
+				0031B11B25CCE90700231B97 /* PBXTargetDependency */,
 			);
-			name = AerospecUITests;
-			productName = AerospecUITests;
-			productReference = 00C3D27425A55A1900184E7B /* AerospecUITests.xctest */;
+			name = iOSAppUITests;
+			productName = iOSAppUITests;
+			productReference = 0031B11925CCE90700231B97 /* iOSAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00C3D25025A55A1700184E7B /* Project object */ = {
+		0031B0F025CCE90600231B97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					00C3D25725A55A1700184E7B = {
+					0031B0F725CCE90600231B97 = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					00C3D26825A55A1900184E7B = {
+					0031B10D25CCE90700231B97 = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 00C3D25725A55A1700184E7B;
+						TestTargetID = 0031B0F725CCE90600231B97;
 					};
-					00C3D27325A55A1900184E7B = {
+					0031B11825CCE90700231B97 = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 00C3D25725A55A1700184E7B;
+						TestTargetID = 0031B0F725CCE90600231B97;
 					};
 				};
 			};
-			buildConfigurationList = 00C3D25325A55A1700184E7B /* Build configuration list for PBXProject "Aerospec" */;
+			buildConfigurationList = 0031B0F325CCE90600231B97 /* Build configuration list for PBXProject "iOSApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +211,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 00C3D24F25A55A1700184E7B;
-			productRefGroup = 00C3D25925A55A1800184E7B /* Products */;
+			mainGroup = 0031B0EF25CCE90600231B97;
+			productRefGroup = 0031B0F925CCE90600231B97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00C3D25725A55A1700184E7B /* Aerospec */,
-				00C3D26825A55A1900184E7B /* AerospecTests */,
-				00C3D27325A55A1900184E7B /* AerospecUITests */,
+				0031B0F725CCE90600231B97 /* iOSApp */,
+				0031B10D25CCE90700231B97 /* iOSAppTests */,
+				0031B11825CCE90700231B97 /* iOSAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00C3D25625A55A1700184E7B /* Resources */ = {
+		0031B0F625CCE90600231B97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C3D26325A55A1900184E7B /* Preview Assets.xcassets in Resources */,
-				00C3D26025A55A1900184E7B /* Assets.xcassets in Resources */,
+				0031B10825CCE90700231B97 /* LaunchScreen.storyboard in Resources */,
+				0031B10525CCE90700231B97 /* Assets.xcassets in Resources */,
+				0031B10325CCE90600231B97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D26725A55A1900184E7B /* Resources */ = {
+		0031B10C25CCE90700231B97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D27225A55A1900184E7B /* Resources */ = {
+		0031B11725CCE90700231B97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +251,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00C3D25425A55A1700184E7B /* Sources */ = {
+		0031B0F425CCE90600231B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C3D25E25A55A1800184E7B /* ContentView.swift in Sources */,
-				00C3D25C25A55A1800184E7B /* AerospecApp.swift in Sources */,
+				0031B10025CCE90600231B97 /* ViewController.swift in Sources */,
+				0031B0FC25CCE90600231B97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D26525A55A1900184E7B /* Sources */ = {
+		0031B10A25CCE90700231B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C3D26E25A55A1900184E7B /* AerospecTests.swift in Sources */,
+				0031B11325CCE90700231B97 /* iOSAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C3D27025A55A1900184E7B /* Sources */ = {
+		0031B11525CCE90700231B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C3D27925A55A1900184E7B /* AerospecUITests.swift in Sources */,
+				0031B11E25CCE90700231B97 /* iOSAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00C3D26B25A55A1900184E7B /* PBXTargetDependency */ = {
+		0031B11025CCE90700231B97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00C3D25725A55A1700184E7B /* Aerospec */;
-			targetProxy = 00C3D26A25A55A1900184E7B /* PBXContainerItemProxy */;
+			target = 0031B0F725CCE90600231B97 /* iOSApp */;
+			targetProxy = 0031B10F25CCE90700231B97 /* PBXContainerItemProxy */;
 		};
-		00C3D27625A55A1900184E7B /* PBXTargetDependency */ = {
+		0031B11B25CCE90700231B97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00C3D25725A55A1700184E7B /* Aerospec */;
-			targetProxy = 00C3D27525A55A1900184E7B /* PBXContainerItemProxy */;
+			target = 0031B0F725CCE90600231B97 /* iOSApp */;
+			targetProxy = 0031B11A25CCE90700231B97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		0031B10125CCE90600231B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031B10225CCE90600231B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0031B10625CCE90700231B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031B10725CCE90700231B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		00C3D27B25A55A1900184E7B /* Debug */ = {
+		0031B12025CCE90700231B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		00C3D27C25A55A1900184E7B /* Release */ = {
+		0031B12125CCE90700231B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,168 +427,168 @@
 			};
 			name = Release;
 		};
-		00C3D27E25A55A1900184E7B /* Debug */ = {
+		0031B12325CCE90700231B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Aerospec/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Aerospec/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.Aerospec;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		00C3D27F25A55A1900184E7B /* Release */ = {
+		0031B12425CCE90700231B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Aerospec/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Aerospec/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.Aerospec;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		00C3D28125A55A1900184E7B /* Debug */ = {
+		0031B12625CCE90700231B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AerospecTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.AerospecTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aerospec.app/Aerospec";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Debug;
 		};
-		00C3D28225A55A1900184E7B /* Release */ = {
+		0031B12725CCE90700231B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AerospecTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.AerospecTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aerospec.app/Aerospec";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Release;
 		};
-		00C3D28425A55A1900184E7B /* Debug */ = {
+		0031B12925CCE90700231B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AerospecUITests/Info.plist;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.AerospecUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Aerospec;
+				TEST_TARGET_NAME = iOSApp;
 			};
 			name = Debug;
 		};
-		00C3D28525A55A1900184E7B /* Release */ = {
+		0031B12A25CCE90700231B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AerospecUITests/Info.plist;
+				DEVELOPMENT_TEAM = LC4R57VTDZ;
+				INFOPLIST_FILE = iOSAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SEAL.AerospecUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = SEAL.iOSAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Aerospec;
+				TEST_TARGET_NAME = iOSApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00C3D25325A55A1700184E7B /* Build configuration list for PBXProject "Aerospec" */ = {
+		0031B0F325CCE90600231B97 /* Build configuration list for PBXProject "iOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C3D27B25A55A1900184E7B /* Debug */,
-				00C3D27C25A55A1900184E7B /* Release */,
+				0031B12025CCE90700231B97 /* Debug */,
+				0031B12125CCE90700231B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C3D27D25A55A1900184E7B /* Build configuration list for PBXNativeTarget "Aerospec" */ = {
+		0031B12225CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C3D27E25A55A1900184E7B /* Debug */,
-				00C3D27F25A55A1900184E7B /* Release */,
+				0031B12325CCE90700231B97 /* Debug */,
+				0031B12425CCE90700231B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C3D28025A55A1900184E7B /* Build configuration list for PBXNativeTarget "AerospecTests" */ = {
+		0031B12525CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C3D28125A55A1900184E7B /* Debug */,
-				00C3D28225A55A1900184E7B /* Release */,
+				0031B12625CCE90700231B97 /* Debug */,
+				0031B12725CCE90700231B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C3D28325A55A1900184E7B /* Build configuration list for PBXNativeTarget "AerospecUITests" */ = {
+		0031B12825CCE90700231B97 /* Build configuration list for PBXNativeTarget "iOSAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C3D28425A55A1900184E7B /* Debug */,
-				00C3D28525A55A1900184E7B /* Release */,
+				0031B12925CCE90700231B97 /* Debug */,
+				0031B12A25CCE90700231B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00C3D25025A55A1700184E7B /* Project object */;
+	rootObject = 0031B0F025CCE90600231B97 /* Project object */;
 }
