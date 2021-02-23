@@ -10,7 +10,6 @@ An iOS app that can communicate with the user's sensor through ESP32. Capable of
 2. Download nRF from the AppStore.
 3. Scan for your device.
 ![alt text](https://raw.githubusercontent.com/AerospecApp/iOSApp/main/misc/Pictures/readme/nRF-1.png?token=AKSLPNJML5JJTP5YS4KJIXLADS7JA)
-
 4. Get your device's UUID
 ![alt text](https://raw.githubusercontent.com/AerospecApp/iOSApp/main/misc/Pictures/readme/nRF-2.png?token=AKSLPNPS65RBVGV5WXK6VNLADS7LY)
 5. Run XCode with xed .
