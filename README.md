@@ -1,5 +1,9 @@
 # iOSApp
 
+Overview:
+![alt text](https://raw.githubusercontent.com/AerospecApp/iOSApp/main/misc/Pictures/readme/progress1.png)
+An iOS app that can communicate with the user's sensor through ESP32. Capable of pulling data from DynamoDB using Amplify and CocoaPod. Working on data visualization. 
+
 1. Compile and upload code in ESP32 to ESP32.
 2. Download nRF from the AppStore.
 3. Scan for your device.
