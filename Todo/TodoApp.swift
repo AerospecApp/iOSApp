@@ -8,6 +8,16 @@
 import SwiftUI
 import Amplify
 import AmplifyPlugins
+import GoogleMaps
+import GooglePlaces
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        GMSServices.provideAPIKey("AIzaSyARbyDDNNrxbTYFfmYYX91wWgZGki4rIl8")
+        GMSPlacesClient.provideAPIKey("AIzaSyARbyDDNNrxbTYFfmYYX91wWgZGki4rIl8")
+        return true
+    }
+}
 
 func configureAmplify() {
     let models = AmplifyModels()
@@ -25,6 +35,7 @@ func configureAmplify() {
 
 @main
 struct TodoApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     public init() {
         configureAmplify()
     }

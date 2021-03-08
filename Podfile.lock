@@ -16,6 +16,13 @@ PODS:
   - AWSPluginsCore (1.6.1):
     - Amplify (= 1.6.1)
     - AWSCore (~> 2.23.0)
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
@@ -25,6 +32,8 @@ DEPENDENCIES:
   - Amplify
   - AmplifyPlugins/AWSAPIPlugin
   - AmplifyPlugins/AWSDataStorePlugin
+  - GoogleMaps
+  - GooglePlaces
 
 SPEC REPOS:
   trunk:
@@ -33,6 +42,8 @@ SPEC REPOS:
     - AppSyncRealTimeClient
     - AWSCore
     - AWSPluginsCore
+    - GoogleMaps
+    - GooglePlaces
     - SQLite.swift
     - Starscream
 
@@ -42,9 +53,11 @@ SPEC CHECKSUMS:
   AppSyncRealTimeClient: 04df4dffe57cfbd06da336d0bfcd5641ba9adcb5
   AWSCore: 589ad0bd5b72e9a95ce33834f12339b50cfc9f14
   AWSPluginsCore: f41f8a478fe3fd8839ec16278b86dededefb0628
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: f66938e9e8703281d521fd9b5ec748d21d74b918
+PODFILE CHECKSUM: f41a9e1879445a2e5907a7689f01c7368c08116f
 
 COCOAPODS: 1.10.1
